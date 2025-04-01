@@ -1,0 +1,124 @@
+body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #fcd7d7;
+  background: url(images/new-bg.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: georgia, garamond, serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 160%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 130%;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 120%;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+h4 {
+  font-size: 110%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p, h1, h2, ol, ul {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+ol {
+  padding-left: 0;
+  margin-left: 30px;
+}
+
+img {
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #8c5900;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid #898989;
+  padding-bottom: 1px;
+}
+
+a:visited {
+  color: #4a2885;
+}
+
+a:hover, a:focus, a:active {
+  background-color: #fff5e8;
+  color: #800080;
+  border-bottom-color: #fdebcf;
+}
+
+div#wrapper {
+  width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  background-image: url(images/wrap-bg.gif);
+  background-repeat: repeat-y;
+  background-position: left top;
+  background-attachment: scroll;
+  border: 2px dotted black;
+}
+
+header {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+header h1, header p {
+  text-indent: -9999999px;
+}
+
+.home header {
+  background: white url(images/bannerhome.png) no-repeat center center;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+  background-position: center center;
+}
+
+.about header {
+  background: white url(images/about-banner.png) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+}
+
+.services header {
+  background: white url(images/services-banner.png) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+}
+
+footer {
+  background-color: #ebf5fc;
+  text-align: center;
+  padding: 10px 0;
+}
